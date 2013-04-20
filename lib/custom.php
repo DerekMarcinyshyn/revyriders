@@ -20,6 +20,7 @@ function toolbar_tweaks() {
 	$wp_admin_bar->remove_menu('feedback');
 	$wp_admin_bar->remove_menu('view-site');
 	$wp_admin_bar->remove_menu('site-name');
+	$wp_admin_bar->remove_menu('s2-site-name');
 }
 
 add_action( 'wp_before_admin_bar_render', 'toolbar_tweaks' );

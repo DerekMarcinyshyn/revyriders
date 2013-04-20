@@ -10,7 +10,15 @@ body { }
    Header
    ========================================================================== */
 
+#wpadminbar {background:#6d0000;}
+#wpadminbar .ab-top-secondary {background: #6d0000;}
+#wpadminbar .quicklinks .ab-top-secondary > li {border-left:1px solid #666;}
+#wpadminbar .quicklinks>ul>li {border-right:1px solid #666;}
+#wpadminbar * {color:#aaa;}
+
 .banner { }
+
+.navbar {margin-bottom: 20px;}
 
 
 
@@ -77,3 +85,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (max-width: 767px) {
 
 }
+
+/* ==========================================================================
+   BuddyPress
+   ========================================================================== */
+
+#buddypress #whats-new-options {}
