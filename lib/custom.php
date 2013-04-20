@@ -24,3 +24,4 @@ function toolbar_tweaks() {
 }
 
 add_action( 'wp_before_admin_bar_render', 'toolbar_tweaks' );
+
