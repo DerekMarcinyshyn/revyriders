@@ -29,3 +29,7 @@ Edit `lib/init.php` to setup custom navigation menus and post thumbnail sizes.
 * Cleaner HTML output of navigation menus
 * Cleaner output of `wp_head` and enqueued scripts/styles
 * Posts use the [hNews](http://microformats.org/wiki/hnews) microformat
+
+## Notes
+
+* Need to edit plugins/buddypress/bp-templates/bp-legacy/js
