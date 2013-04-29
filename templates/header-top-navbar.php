@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
       </a>
       <a class="brand" href="<?php echo home_url(); ?>/">
-        <?php bloginfo('name'); ?>
+				<img alt="Revy Riders" src="<?php echo site_url(); ?>/assets/img/revy-riders-logo.png" width="160" height="60" />
       </a>
       <nav class="nav-main nav-collapse collapse" role="navigation">
         <?php

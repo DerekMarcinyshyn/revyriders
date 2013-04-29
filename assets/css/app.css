@@ -19,8 +19,8 @@ body {background: url(../img/gray_sand.png) repeat fixed; }
 
 .banner { }
 
-.navbar {}
-
+.navbar .brand {padding:0 20px 0 0;}
+.navbar .brand:hover {opacity:0.5;}
 
 
 /* ==========================================================================
@@ -29,13 +29,28 @@ body {background: url(../img/gray_sand.png) repeat fixed; }
 
 .content { }
 
-
+.wpcf7-not-valid-tip {color:#ff0000;}
 
 /* ==========================================================================
    Primary Content
    ========================================================================== */
 
 .main {margin-top:30px; }
+.map .main {margin-top:0;}
+
+/* ==========================================================================
+   Map
+   ========================================================================== */
+
+#map-canvas {color:#333;}
+
+.map-content .body-content {float:left;margin:0 14px 0 0;}
+.map-content .track-image {float:right;}
+.map-content .body-content h1 {font-size:20px;line-height: 22px; color:#222;}
+.map-content .body-content p {color:#333;}
+.map-content .body-content p.hours {color:#111;font-weight:bold;font-size:15px;}
+.map-content .body-content p.no-exceptions {font-weight: bold;font-size:16px;color:#FF0000;}
+.map-content .body-content p.abuse {color:#555;font-size:12px;margin:0;}
 
 
 
