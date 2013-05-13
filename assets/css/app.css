@@ -70,11 +70,8 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 /* ==========================================================================
    Sidebar
    ========================================================================== */
-.sidebar {
-	background: #222;
-
-
-}
+.sidebar {background: #222;}
+.sidebar .widget {margin-bottom:30px;}
 
 @media (max-width: 767px) {
 	.sidebar {
@@ -84,7 +81,7 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 
 .widget {margin-left:10px;}
 .widget-inner ul {margin:0; list-style-type: none;}
-
+.widget-inner h3 {color:#aaa;}
 
 
 /* ==========================================================================
