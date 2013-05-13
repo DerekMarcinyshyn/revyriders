@@ -22,6 +22,7 @@ function roots_widgets_init() {
     'after_title'   => '</h3>',
   ));
 
+
   // Widgets
   register_widget('Roots_Vcard_Widget');
 }
