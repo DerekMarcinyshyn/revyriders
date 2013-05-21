@@ -137,7 +137,7 @@ body.buddypress .page-header  {display:none;}
 
 #buddypress form#whats-new-form #whats-new-options select, #buddypress form#whats-new-form #whats-new-submit {margin-top:0;}
 
-
+#buddypress .field_name input[type=text] {height:auto!important;}
 #buddypress div.pagination {color:#eee;}
 #buddypress div.pagination .pag-count {margin-left:0;}
 #buddypress ul.item-list {border-top:1px solid #666;}
